@@ -1,0 +1,13 @@
+package com.joshuatony.studentrepo;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class StudentrepoApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+
+}
