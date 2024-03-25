@@ -47,7 +47,7 @@ public class StudentController {
     @ResponseStatus(HttpStatus.CREATED)
     @PostMapping("")
     void create(@Valid @RequestBody Student student) {
-        studentService.create(student);;
+        studentService.create(student);
     }
 
 
